@@ -6,8 +6,10 @@
     "watch": "rm -rf ./dist && pnpm webpack --watch"
   },
   "dependencies": {
+    "chalk": "^4.1.2",
     "css-loader": "^6.5.1",
     "html-webpack-plugin": "^5.5.0",
+    "lodash": "^4.17.21",
     "mini-css-extract-plugin": "^2.4.5",
     "webpack": "^5.64.4",
     "webpack-cli": "^4.9.1"

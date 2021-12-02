@@ -1,15 +1,19 @@
 lockfileVersion: 5.3
 
 specifiers:
+  chalk: ^4.1.2
   css-loader: ^6.5.1
   html-webpack-plugin: ^5.5.0
+  lodash: ^4.17.21
   mini-css-extract-plugin: ^2.4.5
   webpack: ^5.64.4
   webpack-cli: ^4.9.1
 
 dependencies:
+  chalk: 4.1.2
   css-loader: 6.5.1_webpack@5.64.4
   html-webpack-plugin: 5.5.0_webpack@5.64.4
+  lodash: 4.17.21
   mini-css-extract-plugin: 2.4.5_webpack@5.64.4
   webpack: 5.64.4_webpack-cli@4.9.1
   webpack-cli: 4.9.1_webpack@5.64.4
@@ -259,6 +263,13 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
+  /ansi-styles/4.3.0:
+    resolution: {integrity: sha1-7dgDYornHATIWuegkG7a00tkiTc=}
+    engines: {node: '>=8'}
+    dependencies:
+      color-convert: 2.0.1
+    dev: false
+
   /boolbase/1.0.0:
     resolution: {integrity: sha1-aN/1++YMUes3cl6p4+0xDcwed24=}
     dev: false
@@ -290,6 +301,14 @@ packages:
     resolution: {integrity: sha1-hXNoW9rk1zPvGPeNRLoMpf6eiWs=}
     dev: false
 
+  /chalk/4.1.2:
+    resolution: {integrity: sha1-qsTit3NKdAhnrrFr8CqtVWoeegE=}
+    engines: {node: '>=10'}
+    dependencies:
+      ansi-styles: 4.3.0
+      supports-color: 7.2.0
+    dev: false
+
   /chrome-trace-event/1.0.3:
     resolution: {integrity: sha1-EBXs7UdB4V0GZkqVfbv1DQQeJqw=}
     engines: {node: '>=6.0'}
@@ -309,6 +328,17 @@ packages:
       is-plain-object: 2.0.4
       kind-of: 6.0.3
       shallow-clone: 3.0.1
+    dev: false
+
+  /color-convert/2.0.1:
+    resolution: {integrity: sha1-ctOmjVmMm9s68q0ehPIdiWq9TeM=}
+    engines: {node: '>=7.0.0'}
+    dependencies:
+      color-name: 1.1.4
+    dev: false
+
+  /color-name/1.1.4:
+    resolution: {integrity: sha1-wqCah6y95pVD3m9j+jmVyCbFNqI=}
     dev: false
 
   /colorette/2.0.16:
@@ -1045,6 +1075,13 @@ packages:
   /strip-final-newline/2.0.0:
     resolution: {integrity: sha1-ibhS+y/L6Tb29LMYevsKEsGrWK0=}
     engines: {node: '>=6'}
+    dev: false
+
+  /supports-color/7.2.0:
+    resolution: {integrity: sha1-G33NyzK4E4gBs+R4umpRyqiWSNo=}
+    engines: {node: '>=8'}
+    dependencies:
+      has-flag: 4.0.0
     dev: false
 
   /supports-color/8.1.1:
